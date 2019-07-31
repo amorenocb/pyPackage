@@ -4,7 +4,10 @@ with open("readme.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="examplepkg",
+    # This is the name of the package, its a good idea that this matches the actual package name.
+    # So if name = a_name then after installing it, if you list the pip installed packages you would
+    # see the package a_name.
+    name="a_package_name",
     version="0.0.1",
     author="Juan Andres Moreno",
     author_email="amorenocb@gmail.com",
