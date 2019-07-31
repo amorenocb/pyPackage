@@ -1,7 +1,9 @@
 # Minimal Working example of a pip-instalable Python Package
 
 # 1. Structure
-This repository contains a package named *example* with one module named *module*. The module *module* contains only one function named *test*.
+This repository contains a package named *example* with one module named *module*. The module *module* contains only one function named *test* that generates *n* samples from a normal distribution.
+
+The `setup.py` file contains the package requirements (in this case, only numpy).
 
 
 # 2. Install
