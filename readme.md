@@ -12,12 +12,6 @@ To install using *https* run:
 pip install git+https://github.com/amorenocb/pyPackage.git
 ```
 
-To install using *ssh* run:
-
-```
-pip install ssh+git@github.com:amorenocb/pyPackage.git
-```
-
 # 3. Usage
 
 ```python
